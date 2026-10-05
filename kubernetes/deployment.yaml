@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: todo-redux
-          image: todo-redux
+          image: todo-redux:1.1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
